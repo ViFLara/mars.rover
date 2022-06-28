@@ -32,4 +32,6 @@ import javax.persistence.*;
             this.position.setRover(this);
         }
 
-}
+        public void getPosition(Position p1) {
+        }
+    }

@@ -28,8 +28,7 @@ public class PositionService {
     }
 
     public Position createPosition(Position positionEntity) throws PositionAlreadyRegisteredException {
-        Position savedPositionEntity = positionRepository.save(positionEntity);
-        return savedPositionEntity;
+        return positionRepository.save(positionEntity);
     }
 
     public Position update(Position position) {
